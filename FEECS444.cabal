@@ -2,7 +2,7 @@ name:                FEECS444
 version:             0.1.0.0
 synopsis:            Initial project template from stack
 description:         Please see README.md
-homepage:            https://github.com/githubuser/FEECS444#readme
+homepage:            https://github.com/frankhucek/FEECS444#readme
 license:             BSD3
 license-file:        LICENSE
 author:              Author name here
@@ -38,4 +38,4 @@ test-suite FEECS444-test
 
 source-repository head
   type:     git
-  location: https://github.com/githubuser/FEECS444
+  location: https://github.com/frankhucek/FEECS444
