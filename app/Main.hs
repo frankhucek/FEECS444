@@ -1,6 +1,10 @@
+{-# LANGUAGE ForeignFunctionInterface #-}
+
 module Main where
 
-import Lib
+import Foreign.C
+
+
 
 main :: IO ()
-main = someFunc
+main = return ()

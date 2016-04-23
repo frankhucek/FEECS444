@@ -11,6 +11,7 @@ copyright:           2016 Author name here
 category:            Web
 build-type:          Simple
 -- extra-source-files:
+-- extra-libraries:     ./src/StackOverrun
 cabal-version:       >=1.10
 
 library
@@ -18,6 +19,7 @@ library
   exposed-modules:     Lib
   build-depends:       base >= 4.7 && < 5
   default-language:    Haskell2010
+  extra-libraries:     StackOverrun
 
 executable FEECS444-exe
   hs-source-dirs:      app
